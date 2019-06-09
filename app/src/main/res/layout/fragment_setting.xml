@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_splash_screen"
+    tools:context=".ui.setting.SettingFragment">
+
+    <ImageView
+        android:id="@+id/image_cover"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_150"
+        android:background="@color/color_splash_screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_avatar"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:layout_marginStart="@dimen/dp_50"
+        app:layout_constraintBottom_toBottomOf="@id/image_cover"
+        app:layout_constraintStart_toStartOf="@id/image_cover"
+        app:layout_constraintTop_toTopOf="@id/image_cover" />
+
+    <TextView
+        android:id="@+id/text_user_name"
+        style="@style/GenreTextTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TranTan"
+        android:textColor="@color/color_black"
+        app:layout_constraintBottom_toBottomOf="@id/image_avatar"
+        app:layout_constraintStart_toEndOf="@id/image_avatar"
+        app:layout_constraintTop_toTopOf="@id/image_avatar" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_splash_screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_cover">
+
+        <ImageView
+            android:id="@+id/image_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_8"
+            android:src="@drawable/ic_password"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_change_password"
+            style="@style/MyDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_8"
+            android:paddingStart="@dimen/dp_30"
+            android:text="Change Password"
+            app:layout_constraintBottom_toBottomOf="@id/image_password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_password"
+            app:layout_constraintTop_toTopOf="@id/image_password" />
+
+        <ImageView
+            android:id="@+id/image_edit_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_8"
+            android:src="@drawable/ic_edit_profile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_password" />
+
+        <TextView
+            android:id="@+id/text_edit_profile"
+            style="@style/MyDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_8"
+            android:paddingStart="@dimen/dp_30"
+            android:text="Edit Proflie"
+            app:layout_constraintBottom_toBottomOf="@id/image_edit_profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_edit_profile"
+            app:layout_constraintTop_toTopOf="@id/image_edit_profile" />
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/image_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_8"
+        android:src="@drawable/ic_info"
+        android:tint="@color/color_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_login" />
+
+    <TextView
+        android:id="@+id/text_info"
+        style="@style/MyDialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_8"
+        android:paddingStart="@dimen/dp_30"
+        android:text="Application information"
+        app:layout_constraintBottom_toBottomOf="@id/image_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_info"
+        app:layout_constraintTop_toTopOf="@id/image_info" />
+
+    <ImageView
+        android:id="@+id/image_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_8"
+        android:src="@drawable/ic_login"
+        android:tint="@color/color_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_info" />
+
+    <TextView
+        android:id="@+id/text_login"
+        style="@style/MyDialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_8"
+        android:paddingStart="@dimen/dp_30"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="@id/image_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_login"
+        app:layout_constraintTop_toTopOf="@id/image_login" />
+
+    <ImageView
+        android:id="@+id/image_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_8"
+        android:src="@drawable/ic_logout"
+        android:tint="@color/color_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_login" />
+
+    <TextView
+        android:id="@+id/text_logout"
+        style="@style/MyDialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_8"
+        android:paddingStart="@dimen/dp_30"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="@id/image_logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_logout"
+        app:layout_constraintTop_toTopOf="@id/image_logout" />
+
+</android.support.constraint.ConstraintLayout>

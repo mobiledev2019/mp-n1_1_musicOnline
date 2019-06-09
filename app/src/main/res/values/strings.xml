@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="search_music_hint">Search Music...</string>
+    <string name="title_classic">Classical</string>
+    <string name="title_all">All music</string>
+    <string name="title_alternativerock">Alternative Rock</string>
+    <string name="title_country">Country</string>
+    <string name="title_all_audio">All audio</string>
+    <string name="title_genres">TOP HIT</string>
+    <string name="title_suggested_song">SUGGESTED SONGS</string>
+    <string name="title_shuffle_play">SHUFFLE PLAY</string>
+    <string name="menu_discover">Discover</string>
+    <string name="menu_my_music">My Music</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_search">Search</string>
+    <string name="title_top_result">TOP RESULT</string>
+    <string-array name="genres_key">
+        <item>soundcloud:genres:all-music</item>
+        <item>soundcloud:genres:all-audio</item>
+        <item>soundcloud:genres:alternativerock</item>
+        <item>soundcloud:genres:classical</item>
+        <item>soundcloud:genres:country</item>
+        <item>soundcloud:genres:ambient</item>
+        <item>soundcloud:genres:danceedm</item>
+        <item>soundcloud:genres:dancehall</item>
+        <item>soundcloud:genres:deephouse</item>
+        <item>soundcloud:genres:disco</item>
+        <item>soundcloud:genres:drumbass</item>
+        <item>soundcloud:genres:dubstep</item>
+        <item>soundcloud:genres:electronic</item>
+        <item>soundcloud:genres:folksingersongwriter</item>
+        <item>soundcloud:genres:hiphoprap</item>
+        <item>soundcloud:genres:house</item>
+        <item>soundcloud:genres:indie</item>
+        <item>soundcloud:genres:jazzblues</item>
+        <item>soundcloud:genres:latin</item>
+        <item>soundcloud:genres:metal</item>
+        <item>soundcloud:genres:piano</item>
+        <item>soundcloud:genres:pop</item>
+        <item>soundcloud:genres:rbsoul</item>
+        <item>soundcloud:genres:reggae</item>
+        <item>soundcloud:genres:reggaeton</item>
+        <item>soundcloud:genres:rock</item>
+        <item>soundcloud:genres:soundtrack</item>
+        <item>soundcloud:genres:techno</item>
+        <item>soundcloud:genres:trance</item>
+        <item>soundcloud:genres:trap</item>
+        <item>soundcloud:genres:triphop</item>
+        <item>soundcloud:genres:world</item>
+        <item>soundcloud:genres:audiobooks</item>
+        <item>soundcloud:genres:business</item>
+        <item>soundcloud:genres:comedy</item>
+        <item>soundcloud:genres:entertainment</item>
+        <item>soundcloud:genres:learning</item>
+        <item>soundcloud:genres:newspolitics</item>
+        <item>soundcloud:genres:science</item>
+        <item>soundcloud:genres:religionspirituality</item>
+        <item>soundcloud:genres:sports</item>
+        <item>soundcloud:genres:storytelling</item>
+        <item>soundcloud:genres:technology</item>
+    </string-array>
+    <string-array name="genres_name">
+        <item>All music</item>
+        <item>All audio</item>
+        <item>Alternative Rock</item>
+        <item>Classical</item>
+        <item>Country</item>
+        <item>Ambient</item>
+        <item>Dance &amp; EDM</item>
+        <item>Dancehall</item>
+        <item>Deep House</item>
+        <item>Disco</item>
+        <item>Drum &amp; Bass</item>
+        <item>Dubstep</item>
+        <item>Electronic</item>
+        <item>Folk &amp; Singer-Songwriter</item>
+        <item>Hip-hop &amp; Rap</item>
+        <item>House</item>
+        <item>Indie</item>
+        <item>Jazz &amp; Blues</item>
+        <item>Latin</item>
+        <item>Metal</item>
+        <item>Piano</item>
+        <item>Pop</item>
+        <item>R&amp;B &amp; Soul</item>
+        <item>Reggae</item>
+        <item>Reggaeton</item>
+        <item>Rock</item>
+        <item>Soundtrack</item>
+        <item>Techno</item>
+        <item>Trance</item>
+        <item>Trap</item>
+        <item>Triphop</item>
+        <item>World</item>
+        <item>Audiobooks</item>
+        <item>Business</item>
+        <item>Comedy</item>
+        <item>Entertainment</item>
+        <item>Learning</item>
+        <item>News &amp; Politics</item>
+        <item>Science</item>
+        <item>Religion &amp; Spirituality</item>
+        <item>Sports</item>
+        <item>Storytelling</item>
+        <item>Technology</item>
+    </string-array>
+    <string name="title_playing_list">Playing list (%d)</string>
+    <string name="err_service_on_failure">Không tải được bài hát "%s"</string>
+    <string name="toast_downloaded">Downloaded</string>
+    <string name="err_download_permistion_false">Bạn phải cấp quyền để download</string>
+    <string name="toast_downloading">Downloading...</string>
+    <string name="title_download">Download</string>
+    <string name="title_add_to_favorite">Add to Favorite</string>
+    <string name="title_add_to_queue">Add to queue</string>
+    <string name="toast_added">Added</string>
+    <string name="err_permission_deni">Không thể chơi nhạc offline nếu không cấp quyền</string>
+    <string name="err_permission_record_audio_deni">Một số tính năng không hoạt động do không cấp quyền</string>
+    <string name="title_upload_date">Upload date: </string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_tracks">Tracks</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="sign_up">Don\'t have an account? <u>SignUp</u></string>
+    <string name="load_more_comment"><u>Load older comment</u></string>
+    <string name="delete_track">Delete Track</string>
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:statusBarColor">@color/color_splash_screen_dark</item>
+    </style>
+
+    <style name="TransparentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/bg_splash_screen</item>
+    </style>
+
+    <style name="GenreTextTheme" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/dp_10</item>
+    </style>
+
+    <style name="CategoryTextTheme" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/dp_8</item>
+    </style>
+
+    <style name="CollapsedAppBarTheme" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="MyDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <style name="BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_recycle</item>
+        <item name="android:minHeight">200dp</item>
+        <item name="android:maxHeight">500dp</item>
+    </style>
+</resources>

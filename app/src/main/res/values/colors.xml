@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#670871</color>
+    <color name="color_primary_dark">#960CA4</color>
+    <color name="color_accent">#343F4B</color>
+    <color name="color_splash_screen">#E4DBDB</color>
+    <color name="color_splash_screen_dark">#bfb2b6</color>
+    <color name="color_text_search">#8492A6</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_text_artist">#343F4B</color>
+    <color name="color_black">#000000</color>
+    <color name="color_background_recycler">#dcffffff</color>
+    <color name="color_favorite">#F95F62</color>
+    <color name="color_star">#FF9800</color>
+</resources>

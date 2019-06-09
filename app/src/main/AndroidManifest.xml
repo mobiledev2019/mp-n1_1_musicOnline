@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trantan.music">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".ui.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/default_artwork"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.editprofile.EditProfileActivity"></activity>
+        <activity android:name=".ui.change_password.ChangePasswordActivity" />
+        <activity android:name=".ui.sign_up.SignUpActivity" />
+        <activity android:name=".ui.sign_in.SignInActivity" />
+        <activity android:name=".ui.comment_track.CommentActivity" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.genres.GenresActivity" />
+        <activity
+            android:name=".ui.detail_genre.DetailGenreActivity"
+            android:theme="@style/TransparentTheme" />
+        <activity
+            android:name=".ui.mainplay.MainPlayActivity"
+            android:parentActivityName=".ui.MainActivity"
+            android:theme="@style/TransparentTheme" />
+        <activity android:name=".ui.search.SearchActivity" />
+
+        <service android:name=".service.music.PlayService" />
+    </application>
+
+</manifest>
